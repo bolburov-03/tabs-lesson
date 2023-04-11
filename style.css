@@ -1,0 +1,62 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .tabs img {
+    width: 200px;
+}
+.tabs input {
+ 
+}
+
+#js:checked ~ .html,
+#js:checked ~ .css {
+    display: none;
+}
+
+#html:checked ~ .js,
+#html:checked ~ .css {
+    display: none;
+}
+
+#css:checked ~ .js,
+#css:checked ~ .html {
+    display: none;
+} */
+.labels {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+.labels label {
+    margin: 0 10px;
+    padding: 3px 10px;
+    background: blue;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+.tabs img {
+    width: 200px;
+}
+.tabs input {
+    display: none;
+}
+
+#naryn:checked ~ .osh,
+#naryn:checked ~ .talas,
+#naryn:checked ~ .kol,
+#naryn:checked ~ .chui,
+#naryn:checked ~ .jalal,
+#naryn:checked ~ .batken{
+    display: none;
+}
+#osh:checked ~ .naryn,
+#ash:checked ~ .talas,
